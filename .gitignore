@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Dataset is only used for local training and must not be uploaded.
+data/
+
+# Keep the trained classifier for cloud inference, but ignore any other model output.
+models/*
+!models/cat_dog_mobilenetv3.pth
